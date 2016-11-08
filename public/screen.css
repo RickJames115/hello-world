@@ -2,6 +2,11 @@ html {
   text-size-adjust: 100%;
 }
 
+body, h1, h2, h3, h4, h5, h6, p, div, ul, menuitem {
+    margin:0;
+    padding:0;
+}
+
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
@@ -13,4 +18,73 @@ body {
 #top {
   text-align: center;
   
+}
+
+#divWrapper{
+    width:700px;
+    margin:20px auto;
+
+}
+
+#divHeader {
+    width: 700px;
+    background: url(http://freetwitterheaders.net/wp-content/uploads/2013/01/Windmill-and-House-in-Sunny-Field-Twitter-Headers-Twitter-Covers-580x290.jpg);
+    text-align:center;
+
+}
+#divHeader img {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#divLine {
+    width:700px;
+    background:#999;
+    height:1px;
+}
+
+#divLinks {
+    width:700px;
+    background:green;
+}
+#divNav {
+    width:384px;
+    background:green;
+    height:36px;
+    margin:0 auto;
+}
+#divNav ul {
+    list-style-type:none;
+}
+#divNav ul li {
+    float:left;
+}
+#divNav ul li a {
+    display:block;
+    height:20px;
+    line-height:20px;
+    background:#000;
+    width:80px;
+    font-size:0.8em;
+    font-weight:bold;
+    color:#FFF;
+    text-align:center;
+    text-decoration:none;
+    margin:7px;
+/*Border Radius*/
+
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border: 1px solid #000;
+
+
+/*  "Was not working, border around buttons" :"then I got it to work" */
+   /*Gradients*/
+
+background:-moz-linear-gradient(top, #666, #333);
+ background:-webkit-gradient(linear, left top, left bottom, from(#666), to(#333));   
+
+
+
 }
