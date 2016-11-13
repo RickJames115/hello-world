@@ -8,10 +8,10 @@ body, h1, h2, h3, h4, h5, h6, p, div, ul, menuitem {
 }
 
 body {
-  margin: 0;
+ 
   font: 16px / 1 sans-serif;
 }
-#cat-photo {
+.cat-photo {
   text-align: center;
   
 }
@@ -23,18 +23,18 @@ body {
 #divWrapper{
     width:700px;
     margin:20px auto;
-
+    background:red;
 }
 
-#divHeader {
-    width: 700px;
-    background: url(http://freetwitterheaders.net/wp-content/uploads/2013/01/Windmill-and-House-in-Sunny-Field-Twitter-Headers-Twitter-Covers-580x290.jpg);
-    text-align:center;
-
+header {
+    height: 290px;
+    width:auto;
+    background-image: url('image/Windmill-and-House-in-Sunny-Field-Twitter-Headers-Twitter-Covers-580x290.jpg');
 }
-#divHeader img {
+header img {
     padding-top:20px;
     padding-bottom:20px;
+    
 }
 
 #divLine {
@@ -43,23 +43,20 @@ body {
     height:1px;
 }
 
-#divLinks {
-    width:700px;
-    background:green;
-}
-#divNav {
+
+nav {
     width:384px;
     background:green;
     height:36px;
     margin:0 auto;
 }
-#divNav ul {
+nav ul {
     list-style-type:none;
 }
-#divNav ul li {
+nav ul li {
     float:left;
 }
-#divNav ul li a {
+nav ul li a {
     display:block;
     height:20px;
     line-height:20px;
@@ -88,29 +85,30 @@ background:-moz-linear-gradient(top, #666, #333);
 
 
 }
-#divNav ul li a:hover {
+nav ul li a:hover {
     background:#333;
     background:-moz-linear-gradient(top, #000, #666);
  background:-webkit-gradient(linear, left top, left bottom, from(#000), to(#666));   
 
 }
 
-#divNav ul li a.current, #divNav ul li a.current:hover {
+nav ul li a.current, nav ul li a.current:hover {
     background:#333;
     background:-moz-linear-gradient(top, #000, #666);
     background:-webkit-gradient(linear, left top, left bottom, from(#000), to(#666));   
     color:#f63;
     cursor:default;
 }
-#divAbout {
+.About {
     width:700px;
-    background:#999;
+    background:lightgray;
     padding-bottom:60px;
-    padding-top:60px;
+    padding-top:20px;
 
 }
 #divContent {
-    width:430px;
+    text-align:center;
+   
     margin:0 auto;
     background:#222;
     border:1px solid #000;
@@ -120,7 +118,8 @@ background:-moz-linear-gradient(top, #666, #333);
     border:1px solid #000;
     background:#000;
     padding:16px;
-    margin:0.7em;
+    margin-top:20px;
+    margin-bottom:40px;
 
     /*gradients*/
     background:-moz-linear-gradient(top, #000, #333);
