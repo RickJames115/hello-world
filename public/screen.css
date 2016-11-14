@@ -100,11 +100,10 @@ nav ul li a.current, nav ul li a.current:hover {
     cursor:default;
 }
 .About {
-    width:700px;
+    width:680px;
     background:lightgray;
-    padding-bottom:60px;
-    padding-top:20px;
-
+    padding:20px 10px 60px 10px;
+   
 }
 #divContent {
     text-align:center;
